@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img alt="Typing intro" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&center=true&vCenter=true&width=720&lines=Construindo+solucoes+web+com+foco+em+produto;Do+front-end+ao+back-end+com+codigo+claro;Laravel%2C+Vue%2C+JavaScript%2C+PHP+e+boas+interfaces">
+  <img alt="Typing intro" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&center=true&vCenter=true&width=720&lines=Aplicacoes+web+com+arquitetura+clara;Interfaces+objetivas+e+experiencias+consistentes;APIs%2C+cache%2C+filas+e+integracoes+bem+estruturadas">
 </p>
 
 ---
