@@ -121,14 +121,8 @@ function replaceSection(readme, name, content) {
 }
 
 function buildMetrics({ publicRepos, ownRepos, commitTotal, topLanguage }) {
-  const updatedAt = new Intl.DateTimeFormat("pt-BR", {
-    dateStyle: "short",
-    timeStyle: "short",
-    timeZone: "America/Belem",
-  }).format(new Date());
-
   return `
-<table>
+<table align="center">
   <tr>
     <td><strong>Repositorios publicos</strong><br>${formatNumber(publicRepos)}</td>
     <td><strong>Projetos proprios</strong><br>${formatNumber(ownRepos)}</td>
@@ -136,8 +130,6 @@ function buildMetrics({ publicRepos, ownRepos, commitTotal, topLanguage }) {
     <td><strong>Linguagem mais usada</strong><br>${topLanguage}</td>
   </tr>
 </table>
-
-Atualizado automaticamente em ${updatedAt} pelo GitHub Actions.
 `;
 }
 
