@@ -22,7 +22,7 @@
   <tr>
     <td><strong>Repositorios publicos</strong><br>32</td>
     <td><strong>Projetos proprios</strong><br>32</td>
-    <td><strong>Commits publicos</strong><br>433</td>
+    <td><strong>Commits publicos</strong><br>435</td>
     <td><strong>Linguagem mais usada</strong><br>PHP</td>
   </tr>
 </table>
