@@ -20,8 +20,8 @@
 <!--START_SECTION:github-metrics-->
 <table align="center">
   <tr>
-    <td><strong>Repositorios publicos</strong><br>33</td>
-    <td><strong>Projetos proprios</strong><br>33</td>
+    <td><strong>Repositorios publicos</strong><br>34</td>
+    <td><strong>Projetos proprios</strong><br>34</td>
     <td><strong>Commits publicos</strong><br>469</td>
     <td><strong>Linguagem mais usada</strong><br>PHP</td>
   </tr>
@@ -59,10 +59,10 @@
 <!--START_SECTION:featured-projects-->
 | Projeto | Stack | Status |
 | --- | --- | --- |
+| [Redis](https://github.com/martinss08/Redis) | Codigo | Projeto em evolucao |
 | [martinss08](https://github.com/martinss08/martinss08) | JavaScript | Projeto em evolucao |
 | [imersao-deploypro](https://github.com/martinss08/imersao-deploypro) | JavaScript | Projeto em evolucao |
 | [deploy-pro](https://github.com/martinss08/deploy-pro) | HTML | Projeto em evolucao |
-| [teste-electra](https://github.com/martinss08/teste-electra) | PHP | Projeto em evolucao |
 <!--END_SECTION:featured-projects-->
 
 <details>
