@@ -20,9 +20,9 @@
 <!--START_SECTION:github-metrics-->
 <table align="center">
   <tr>
-    <td><strong>Repositorios publicos</strong><br>34</td>
-    <td><strong>Projetos proprios</strong><br>34</td>
-    <td><strong>Commits publicos</strong><br>507</td>
+    <td><strong>Repositorios publicos</strong><br>33</td>
+    <td><strong>Projetos proprios</strong><br>33</td>
+    <td><strong>Commits publicos</strong><br>503</td>
     <td><strong>Linguagem mais usada</strong><br>PHP</td>
   </tr>
 </table>
