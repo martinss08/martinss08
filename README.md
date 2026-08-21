@@ -22,7 +22,7 @@
   <tr>
     <td><strong>Repositorios publicos</strong><br>34</td>
     <td><strong>Projetos proprios</strong><br>34</td>
-    <td><strong>Commits publicos</strong><br>604</td>
+    <td><strong>Commits publicos</strong><br>605</td>
     <td><strong>Linguagem mais usada</strong><br>PHP</td>
   </tr>
 </table>
@@ -59,8 +59,8 @@
 <!--START_SECTION:featured-projects-->
 | Projeto | Stack | Status |
 | --- | --- | --- |
-| [Sist-de-Controle-de-Estoque-com-Vue.js-e-Larav](https://github.com/martinss08/Sist-de-Controle-de-Estoque-com-Vue.js-e-Larav) | Blade | Projeto em evolucao |
 | [martinss08](https://github.com/martinss08/martinss08) | JavaScript | Projeto em evolucao |
+| [Sist-de-Controle-de-Estoque-com-Vue.js-e-Larav](https://github.com/martinss08/Sist-de-Controle-de-Estoque-com-Vue.js-e-Larav) | Blade | Projeto em evolucao |
 | [Redis](https://github.com/martinss08/Redis) | Blade | Projeto em evolucao |
 | [imersao-deploypro](https://github.com/martinss08/imersao-deploypro) | JavaScript | Projeto em evolucao |
 <!--END_SECTION:featured-projects-->
