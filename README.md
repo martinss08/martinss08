@@ -22,7 +22,7 @@
   <tr>
     <td><strong>Repositorios publicos</strong><br>35</td>
     <td><strong>Projetos proprios</strong><br>35</td>
-    <td><strong>Commits publicos</strong><br>624</td>
+    <td><strong>Commits publicos</strong><br>628</td>
     <td><strong>Linguagem mais usada</strong><br>PHP</td>
   </tr>
 </table>
@@ -59,9 +59,9 @@
 <!--START_SECTION:featured-projects-->
 | Projeto | Stack | Status |
 | --- | --- | --- |
-| [martinss08](https://github.com/martinss08/martinss08) | JavaScript | Projeto em evolucao |
-| [Curso-Docker](https://github.com/martinss08/Curso-Docker) | HTML | Projeto em evolucao |
 | [Sist-de-Controle-de-Estoque-com-Vue.js-e-Larav](https://github.com/martinss08/Sist-de-Controle-de-Estoque-com-Vue.js-e-Larav) | Blade | Projeto em evolucao |
+| [Curso-Docker](https://github.com/martinss08/Curso-Docker) | Dockerfile | Projeto em evolucao |
+| [martinss08](https://github.com/martinss08/martinss08) | JavaScript | Projeto em evolucao |
 | [Redis](https://github.com/martinss08/Redis) | Blade | Projeto em evolucao |
 <!--END_SECTION:featured-projects-->
 
