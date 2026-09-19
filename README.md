@@ -20,9 +20,9 @@
 <!--START_SECTION:github-metrics-->
 <table align="center">
   <tr>
-    <td><strong>Repositorios publicos</strong><br>36</td>
-    <td><strong>Projetos proprios</strong><br>36</td>
-    <td><strong>Commits publicos</strong><br>741</td>
+    <td><strong>Repositorios publicos</strong><br>37</td>
+    <td><strong>Projetos proprios</strong><br>37</td>
+    <td><strong>Commits publicos</strong><br>742</td>
     <td><strong>Linguagem mais usada</strong><br>PHP</td>
   </tr>
 </table>
@@ -59,10 +59,10 @@
 <!--START_SECTION:featured-projects-->
 | Projeto | Stack | Status |
 | --- | --- | --- |
+| [teste-front-developer-JungleGaming](https://github.com/martinss08/teste-front-developer-JungleGaming) | Codigo | Projeto em evolucao |
 | [martinss08](https://github.com/martinss08/martinss08) | JavaScript | Projeto em evolucao |
 | [Curso-Docker](https://github.com/martinss08/Curso-Docker) | Dockerfile | Projeto em evolucao |
 | [API-RESTful-com-Node.js](https://github.com/martinss08/API-RESTful-com-Node.js) | JavaScript | Projeto em evolucao |
-| [Sist-de-Controle-de-Estoque-com-Vue.js-e-Larav](https://github.com/martinss08/Sist-de-Controle-de-Estoque-com-Vue.js-e-Larav) | Blade | Projeto em evolucao |
 <!--END_SECTION:featured-projects-->
 
 <details>
