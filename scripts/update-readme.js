@@ -177,7 +177,7 @@ async function main() {
     })
   );
 
-  readme = replaceSection(readme, "featured-projects", buildFeaturedProjects(repos));
+  readme = replaceSectionIfPresent(readme, "featured-projects", buildFeaturedProjects(repos));
 
   fs.writeFileSync("README.md", readme);
 }

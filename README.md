@@ -54,13 +54,30 @@ class JoaoVictor
 
 ---
 
-## Projetos recentes
+## Atualmente construindo
 
-<!--START_SECTION:featured-projects-->
-- [martinss08](https://github.com/martinss08/martinss08) - JavaScript - Projeto em evolucao
-- [teste-jungle-gaming](https://github.com/martinss08/teste-jungle-gaming) - TypeScript - Projeto em evolucao
-- [teste-front-developer-JungleGaming](https://github.com/martinss08/teste-front-developer-JungleGaming) - Codigo - Projeto em evolucao
-<!--END_SECTION:featured-projects-->
+<table>
+  <tr>
+    <td width="33%">
+      <strong>Backend</strong><br>
+      APIs organizadas, regras de negocio claras e bases preparadas para crescer.
+      <br><br>
+      <code>Laravel</code> <code>Node.js</code> <code>Redis</code>
+    </td>
+    <td width="33%">
+      <strong>Frontend</strong><br>
+      Interfaces objetivas, responsivas e pensadas para uma experiencia simples.
+      <br><br>
+      <code>React</code> <code>Vue</code> <code>JavaScript</code>
+    </td>
+    <td width="33%">
+      <strong>Infra & evolucao</strong><br>
+      Estudos e praticas com deploy, containers, cache e organizacao de projetos.
+      <br><br>
+      <code>Docker</code> <code>GitHub Actions</code> <code>Linux</code>
+    </td>
+  </tr>
+</table>
 
 ---
 
