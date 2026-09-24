@@ -122,14 +122,10 @@ function replaceSection(readme, name, content) {
 
 function buildMetrics({ publicRepos, ownRepos, commitTotal, topLanguage }) {
   return `
-<table align="center">
-  <tr>
-    <td><strong>Repositorios publicos</strong><br>${formatNumber(publicRepos)}</td>
-    <td><strong>Projetos proprios</strong><br>${formatNumber(ownRepos)}</td>
-    <td><strong>Commits publicos</strong><br>${formatNumber(commitTotal)}</td>
-    <td><strong>Linguagem mais usada</strong><br>${topLanguage}</td>
-  </tr>
-</table>
+- Repositorios publicos: **${formatNumber(publicRepos)}**
+- Projetos proprios: **${formatNumber(ownRepos)}**
+- Commits publicos: **${formatNumber(commitTotal)}**
+- Linguagem mais usada: **${topLanguage}**
 `;
 }
 
@@ -137,16 +133,14 @@ function buildFeaturedProjects(repos) {
   const rows = repos
     .filter((repo) => !repo.fork && !repo.archived)
     .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
-    .slice(0, 4)
+    .slice(0, 3)
     .map((repo) => {
       const description = repo.description || "Projeto em evolucao";
       const stack = repo.language || "Codigo";
-      return `| [${repo.name}](${repo.html_url}) | ${stack} | ${description.replace(/\|/g, "-")} |`;
+      return `- [${repo.name}](${repo.html_url}) - ${stack} - ${description.replace(/\|/g, "-")}`;
     });
 
-  return `| Projeto | Stack | Status |
-| --- | --- | --- |
-${rows.join("\n")}`;
+  return rows.join("\n");
 }
 
 async function main() {
