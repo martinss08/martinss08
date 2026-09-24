@@ -1,26 +1,77 @@
-<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Banner João Victor</title>
-  <desc id="desc">Banner com fundo em gradiente e o nome João Victor em destaque.</desc>
+  <desc id="desc">Banner animado com ondas coloridas e o nome João Victor em destaque.</desc>
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#6D28D9"/>
-      <stop offset="0.42" stop-color="#0891B2"/>
-      <stop offset="1" stop-color="#DB2777"/>
+    <linearGradient id="animatedBg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6D28D9">
+        <animate attributeName="stop-color" values="#6D28D9;#0891B2;#DB2777;#7C3AED;#6D28D9" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.45" stop-color="#0891B2">
+        <animate attributeName="stop-color" values="#0891B2;#22C55E;#6366F1;#06B6D4;#0891B2" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#DB2777">
+        <animate attributeName="stop-color" values="#DB2777;#F97316;#0EA5E9;#A855F7;#DB2777" dur="9s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
-    <linearGradient id="shadow" x1="250" y1="190" x2="1180" y2="240" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0F172A" stop-opacity="0"/>
-      <stop offset="1" stop-color="#0F172A" stop-opacity="0.58"/>
+
+    <linearGradient id="waveLight" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.10"/>
     </linearGradient>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#020617" flood-opacity="0.35"/>
-    </filter>
+
+    <linearGradient id="waveDark" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020617" stop-opacity="0.12"/>
+      <stop offset="0.5" stop-color="#020617" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0.44"/>
+    </linearGradient>
+
+    <clipPath id="bannerClip">
+      <rect x="18" y="24" width="1164" height="292" rx="0"/>
+    </clipPath>
   </defs>
 
-  <rect width="1200" height="260" fill="#0D1117"/>
-  <g filter="url(#softShadow)">
-    <path d="M48 36H1152V224H48V36Z" fill="url(#bg)"/>
-    <path d="M48 184L1152 134V224H48V184Z" fill="url(#shadow)"/>
-    <path d="M48 36H1152V224H48V36Z" stroke="#1F2937" stroke-width="2"/>
+  <rect width="1200" height="340" fill="#0D1117"/>
+
+  <rect x="28" y="34" width="1164" height="292" fill="#020617" opacity="0.34"/>
+
+  <g>
+    <rect x="18" y="24" width="1164" height="292" fill="url(#animatedBg)"/>
+
+    <g clip-path="url(#bannerClip)">
+      <path fill="url(#waveLight)" opacity="0.72"
+        d="M-80 130 C120 82 250 178 440 134 C640 88 790 82 980 126 C1100 154 1210 132 1280 98 L1280 0 L-80 0 Z">
+        <animate attributeName="d" dur="7s" repeatCount="indefinite"
+          values="
+            M-80 130 C120 82 250 178 440 134 C640 88 790 82 980 126 C1100 154 1210 132 1280 98 L1280 0 L-80 0 Z;
+            M-80 116 C100 170 270 72 450 118 C640 166 790 154 980 104 C1110 70 1210 92 1280 132 L1280 0 L-80 0 Z;
+            M-80 130 C120 82 250 178 440 134 C640 88 790 82 980 126 C1100 154 1210 132 1280 98 L1280 0 L-80 0 Z"/>
+      </path>
+
+      <path fill="url(#waveDark)" opacity="0.68"
+        d="M-80 222 C90 186 260 236 440 198 C630 158 790 184 980 160 C1110 144 1208 152 1280 136 L1280 340 L-80 340 Z">
+        <animate attributeName="d" dur="8s" repeatCount="indefinite"
+          values="
+            M-80 222 C90 186 260 236 440 198 C630 158 790 184 980 160 C1110 144 1208 152 1280 136 L1280 340 L-80 340 Z;
+            M-80 192 C120 238 260 168 440 210 C640 256 800 206 980 188 C1110 174 1210 204 1280 176 L1280 340 L-80 340 Z;
+            M-80 222 C90 186 260 236 440 198 C630 158 790 184 980 160 C1110 144 1208 152 1280 136 L1280 340 L-80 340 Z"/>
+      </path>
+
+      <path fill="#020617" opacity="0.20"
+        d="M-80 276 C120 234 300 292 500 250 C680 212 830 230 1000 206 C1130 188 1220 206 1280 190 L1280 340 L-80 340 Z">
+        <animate attributeName="d" dur="10s" repeatCount="indefinite"
+          values="
+            M-80 276 C120 234 300 292 500 250 C680 212 830 230 1000 206 C1130 188 1220 206 1280 190 L1280 340 L-80 340 Z;
+            M-80 244 C110 286 300 220 500 264 C690 306 840 250 1000 236 C1130 224 1220 250 1280 220 L1280 340 L-80 340 Z;
+            M-80 276 C120 234 300 292 500 250 C680 212 830 230 1000 206 C1130 188 1220 206 1280 190 L1280 340 L-80 340 Z"/>
+      </path>
+
+      <rect x="18" y="24" width="1164" height="292" fill="#020617" opacity="0.06"/>
+    </g>
+
+    <rect x="18" y="24" width="1164" height="292" stroke="#334155" stroke-width="2"/>
   </g>
-  <text x="600" y="140" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="2" fill="#F8FAFC">JOÃO VICTOR</text>
+
+  <text x="600" y="190" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="3" fill="#F8FAFC">JOÃO VICTOR</text>
 </svg>
