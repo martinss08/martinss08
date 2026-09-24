@@ -51,7 +51,7 @@ class JoaoVictor
 <!--START_SECTION:github-metrics-->
 - Repositorios publicos: **38**
 - Projetos proprios: **38**
-- Commits publicos: **789**
+- Commits publicos: **790**
 - Linguagem mais usada: **PHP**
 <!--END_SECTION:github-metrics-->
 
