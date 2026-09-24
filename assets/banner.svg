@@ -1,6 +1,6 @@
 <svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Banner João Victor</title>
-  <desc id="desc">Banner animado com ondas coloridas e o nome João Victor em destaque.</desc>
+  <desc id="desc">Banner animado com ondas coloridas, nome João Victor e uma frase sobre desenvolvimento.</desc>
 
   <defs>
     <linearGradient id="animatedBg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
@@ -73,5 +73,6 @@
     <rect x="18" y="24" width="1164" height="292" stroke="#334155" stroke-width="2"/>
   </g>
 
-  <text x="600" y="190" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="3" fill="#F8FAFC">JOÃO VICTOR</text>
+  <text x="600" y="166" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="3" fill="#F8FAFC">JOÃO VICTOR</text>
+  <text x="600" y="212" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="500" letter-spacing="0" fill="#E0F2FE">Desenvolvendo aplicacoes web com codigo limpo, interfaces objetivas e solucoes que evoluem.</text>
 </svg>

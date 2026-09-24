@@ -2,10 +2,6 @@
   <img src="assets/banner.svg" alt="João Victor" width="100%">
 </p>
 
-<p align="center">
-  <code>Construindo produtos que resolvem problemas reais.</code>
-</p>
-
 ---
 
 ## Sobre mim
