@@ -34,26 +34,23 @@ class JoaoVictor
 
 ## Tecnologias & Ferramentas
 
-<p align="left">
-  <img alt="PHP" src="https://img.shields.io/badge/PHP-111827?style=for-the-badge&logo=php&logoColor=777BB4">
-  <img alt="Laravel" src="https://img.shields.io/badge/Laravel-111827?style=for-the-badge&logo=laravel&logoColor=FF2D20">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-  <img alt="React" src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB">
-  <img alt="Vue.js" src="https://img.shields.io/badge/Vue.js-111827?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D">
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs&logoColor=339933">
-  <img alt="Redis" src="https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis&logoColor=DC382D">
+<p align="center">
+  <img alt="Tecnologias" src="https://skillicons.dev/icons?i=php,laravel,mysql,postgres,docker,git,github,linux,js,html,css,bootstrap,nginx,redis&perline=7&theme=dark">
 </p>
 
 ---
 
-## Resumo do GitHub
+## Resumo detalhado
 
-<!--START_SECTION:github-metrics-->
-- Repositorios publicos: **38**
-- Projetos proprios: **38**
-- Commits publicos: **790**
-- Linguagem mais usada: **PHP**
-<!--END_SECTION:github-metrics-->
+<p align="center">
+  <img alt="Resumo do perfil" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=martinss08&theme=github_dark">
+</p>
+
+<p align="center">
+  <img alt="Linguagens por repositorio" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=martinss08&theme=github_dark">
+  <img alt="Linguagens por commit" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=martinss08&theme=github_dark">
+  <img alt="Status do perfil" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=martinss08&theme=github_dark">
+</p>
 
 ---
 

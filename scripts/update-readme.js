@@ -120,6 +120,17 @@ function replaceSection(readme, name, content) {
   return readme.replace(pattern, `${start}\n${content.trim()}\n${end}`);
 }
 
+function replaceSectionIfPresent(readme, name, content) {
+  const start = `<!--START_SECTION:${name}-->`;
+  const end = `<!--END_SECTION:${name}-->`;
+
+  if (!readme.includes(start) || !readme.includes(end)) {
+    return readme;
+  }
+
+  return replaceSection(readme, name, content);
+}
+
 function buildMetrics({ publicRepos, ownRepos, commitTotal, topLanguage }) {
   return `
 - Repositorios publicos: **${formatNumber(publicRepos)}**
@@ -155,7 +166,7 @@ async function main() {
 
   let readme = fs.readFileSync("README.md", "utf8");
 
-  readme = replaceSection(
+  readme = replaceSectionIfPresent(
     readme,
     "github-metrics",
     buildMetrics({
